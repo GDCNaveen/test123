@@ -3,7 +3,16 @@ import { Play, BookOpen, Clock } from 'lucide-react';
 
 const Dashboard = ({ onVideoSelect }) => {
   const courses = [
-    
+      {
+      id: 3,
+      title: 'Mathematics Part 3',
+      description: 'Quadratic Functions and Polynomial Operations',
+      duration: '2h 45m',
+      level: 'Intermediate',
+      videoUrl: 'https://www.youtube.com/embed/aZdUhs_v9Ps?autoplay=1&rel=0&modestbranding=1',
+      thumbnail: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400',
+      color: 'from-purple-500 to-violet-500'
+    },
     {
       id: 2,
       title: 'Mathematics Part 2',
@@ -14,16 +23,7 @@ const Dashboard = ({ onVideoSelect }) => {
       thumbnail: 'https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=400',
       color: 'from-green-500 to-emerald-500'
     },
-    {
-      id: 3,
-      title: 'Mathematics Part 3',
-      description: 'Quadratic Functions and Polynomial Operations',
-      duration: '2h 45m',
-      level: 'Intermediate',
-      videoUrl: 'https://www.youtube.com/embed/aZdUhs_v9Ps?autoplay=1&rel=0&modestbranding=1',
-      thumbnail: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400',
-      color: 'from-purple-500 to-violet-500'
-    },
+  
     {
       id: 4,
       title: 'Mathematics Part 4',
