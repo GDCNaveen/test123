@@ -9,7 +9,7 @@ const Dashboard = ({ onVideoSelect }) => {
       description: 'Quadratic Functions and Polynomial Operations',
       duration: '2h 45m',
       level: 'SSC',
-      videoUrl: 'https://www.youtube.com/embed/aZdUhs_v9Ps?autoplay=1&rel=0&modestbranding=1',
+      videoUrl: 'https://iframe.mediadelivery.net/embed/458316/b7e4922a-2438-4f87-b92b-be444b1ef848',
       thumbnail: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400',
       color: 'from-purple-500 to-violet-500'
     },
